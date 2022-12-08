@@ -1,0 +1,46 @@
+.grid-container .listamarcas .listamarcas2 ul {
+  background-color: blueviolet;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 70px;
+    background-color: blueviolet;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    &:hover {
+      transform: scale(1.2);
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}
+.contenedor {
+  z-index: 0;
+  .lista1 {
+    margin: 0cm;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: blueviolet;
+    text-align: left;
+    h3 {
+      text-align: left;
+    }
+  }
+}
+.imgfooter {
+  width: 400px;
+}
+.loguitos {
+  display: flex;
+  flex-direction: row;
+}

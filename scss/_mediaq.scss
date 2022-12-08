@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+  .grid-container {
+    width: 100%;
+    align-content: center;
+  }
+  .grid-container .img2 {
+    margin-left: 0%;
+  }
+  .container4 {
+    width: 80%;
+    margin-left: 10%;
+    align-content: center;
+  }
+  .listamarcas {
+    width: 80%;
+  }
+  .imgfooter {
+    width: 75%;
+  }
+  .header .navbar {
+    width: 100%;
+  }
+  .rellenocontacto {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+}
