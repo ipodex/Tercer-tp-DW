@@ -1,9 +1,13 @@
 .carousel {
-  margin-left: 500px;
+  margin-left: 700px;
   margin-right: 500px;
   position: relative;
   top: 0px;
   z-index: 0;
+  width: 500px;
+  img {
+    width: 500px;
+  }
 }
 .grid-container p {
   font-family: Arial, Helvetica, sans-serif;
