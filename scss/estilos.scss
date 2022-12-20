@@ -6,6 +6,15 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
+header {
+  font-family: "Oswald", sans-serif;
+}
+article {
+  font-family: "Oswald", sans-serif;
+}
+footer {
+  font-family: "Oswald", sans-serif;
+}
 body {
   background-color: #3b3435;
 }
@@ -35,7 +44,7 @@ body {
 .grid-container .footer {
   display: flex;
 }
-
+@import "variables";
 @import "header";
 @import "footer";
 @import "index";

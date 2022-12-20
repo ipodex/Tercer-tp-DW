@@ -8,7 +8,7 @@
     justify-content: space-between;
     padding: 20px;
     margin-left: 70px;
-    background-color: blueviolet;
+    background-color: $violeta;
     align-items: center;
     cursor: pointer;
     font-size: 15px;
@@ -17,9 +17,9 @@
     }
     a {
       text-decoration: none;
-      color: white;
+      color: $blanco;
       &:hover {
-        color: gray;
+        color: $gris;
       }
     }
   }
@@ -30,7 +30,7 @@
     margin: 0cm;
     padding-right: 100px;
     padding-left: 100px;
-    color: blueviolet;
+    color: $violeta;
     text-align: left;
     h3 {
       text-align: left;
